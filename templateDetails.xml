@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4" type="template" client="site">
+	<name>MkWebDev</name>
+	<version>1.0</version>
+	<creationDate>30/07/2023</creationDate>
+	<author>MK-Web.dev</author>
+	<authorEmail>sayhi@mk-web.dev</authorEmail>
+	<authorURL>https://mk-web.dev</authorURL>
+	<copyright>Copyright (C) 2023 MK-Web.dev</copyright>
+	<description>TPL_MKWEBDEV_TEMPLATE_DESCRIPTION</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>joomla.asset.json</filename>
+	</files>
+	<media destination="templates/site/mkwebdev" folder="media">
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+	</media>
+	<positions>
+		<position>mainnav</position>
+		<position>bottomnav</position>
+	</positions>
+	<languages folder="language">
+		<language tag="de-DE">de-DE/tpl_mkwebdev.ini</language>
+		<language tag="de-DE">de-DE/tpl_mkwebdev.sys.ini</language>
+		<language tag="en-GB">en-GB/tpl_mkwebdev.ini</language>
+		<language tag="en-GB">en-GB/tpl_mkwebdev.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">			
+			<fieldset name="advanced"> 
+				<field name="logo" type="media" label="Logo" description="TPL_MKWEBDEV_TEST_DESCRIPTION" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

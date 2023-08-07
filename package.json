@@ -1,0 +1,15 @@
+{
+  "name": "mkwebdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/media/templates/site/mkwebdev/js/script.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ../../media/templates/site/mkwebdev/css/input.css -o ../../media/templates/site/mkwebdev/css/output.css",
+    "watch": "npx tailwindcss -i ../../media/templates/site/mkwebdev/css/input.css -o ../../media/templates/site/mkwebdev/css/output.css --watch",
+    "prod": "npx tailwindcss -i ../../media/templates/site/mkwebdev/css/input.css -o ../../media/templates/site/mkwebdev/css/output.css --minify"
+  },
+  "author": "MkWebDev",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

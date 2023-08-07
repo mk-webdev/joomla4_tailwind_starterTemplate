@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
+  "name": "mkwebdev",
+  "version": "4.0.0",
+  "description": "This file contains details of the assets used by mkwebdev.",
+  "license": "GPL-2.0-or-later",
+  "assets": [
+    {
+      "name": "styles",
+      "description": "The default css style to use.",
+      "type": "style",
+      "uri": "media/templates/site/mkwebdev/css/output.css"
+    },
+    {
+      "name": "script",
+      "description": "The file containing the javascript for this template.",
+      "type": "script",
+      "uri": "media/templates/site/mkwebdev/js/script.js",
+      "attributes": {
+        "defer": true
+      }
+    }
+  ]
+}
